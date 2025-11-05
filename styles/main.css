@@ -1,0 +1,49 @@
+/* Importation de la police 'Readex Pro' à partir de Google Fonts, 
+   avec différents poids de caractères (300, 400, 500, 600, 700) */
+ /*  @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');*/
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+   /* Applique la police 'Readex Pro' à tous les éléments de la page */
+   * {
+       /*font-family: 'Readex Pro';*/
+       font-family: 'Roboto', sans-serif;
+   }
+   /* Note  : Si le style Roboto pro n'est pas dispo, un style de police sans-serif
+   est utilisé par défaut
+   */
+
+/* Style pour les couleurs de lien */
+
+a {
+    text-decoration: none;
+    color : green !important;
+    font-weight: 500;
+}
+
+/* Style pour les couleurs de survol de lien */
+
+a:hover {
+    color: #d33682 !important; 
+    text-decoration: underline;
+}
+
+/* Style pour les lignes horizontales*/
+hr{
+
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+/* Cache le menu principal (#MainMenu), le pied de page (footer) et l'en-tête (header)
+      en les rendant invisibles (visibility: hidden). Ces éléments occupent encore de l'espace
+      mais ne sont plus visibles à l'écran. */
+
+#MainMenu{
+    visibility: hidden;
+}
+footer{
+    visibility: hidden;
+}
+header{
+    visibility: hidden;
+}
