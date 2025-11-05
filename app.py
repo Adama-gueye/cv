@@ -63,21 +63,21 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 st.write('\n')
 st.subheader("Expérience & Qualifications")
 st.write("""
-- ✔️ Expérience en analyse et visualisation de données (Power BI, pandas)
-- ✔️ Solides compétences en Python, SQL et développement backend (Laravel)
-- ✔️ Bonne compréhension des modèles statistiques et de Machine Learning
-- ✔️ Capacité d’adaptation, apprentissage rapide et rigueur professionnelle
+- Expérience en analyse et visualisation de données (Power BI, pandas)
+- Solides compétences en Python, SQL et développement backend (Laravel)
+- Bonne compréhension des modèles statistiques et de Machine Learning
+- Capacité d’adaptation, apprentissage rapide et rigueur professionnelle
 """)
 
 # ----- SKILLS -----
 st.write('\n')
 st.subheader("Compétences Techniques")
 st.write("""
-- 💻 Langages : Python, SQL, PHP, JavaScript, R
-- 📊 Data Viz : Power BI, Streamlit, Excel
-- 🧠 Machine Learning : Scikit-learn, Pandas, K-Means, Régression
-- 🗄️ Bases de données : MySQL, PostgreSQL
-- 🌐 Frameworks : Laravel, Flask, Django, React
+- Langages : Python, SQL, PHP, JavaScript, R
+- Data Viz : Power BI, Streamlit, Excel
+- Machine Learning : Scikit-learn, Pandas, K-Means, Régression
+- Bases de données : MySQL, PostgreSQL
+- Frameworks : Laravel, Flask, Django, React
 """)
 
 # ----- PROJECTS -----
