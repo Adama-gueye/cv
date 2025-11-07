@@ -12,9 +12,11 @@ profile_pic = current_dir / "assets" / "profile-pic.jpg"
 PAGE_TITLE = "👋 Digital CV | Adama Gueye"
 NAME = "Adama Gueye"
 DESCRIPTION = """
-Étudiante en Master Data Science & Intelligence Artificielle, passionnée par l’analyse, la visualisation et la valorisation des données.
-Rigoureuse, curieuse et motivée à apprendre au sein d’équipes innovantes.
-"""
+Étudiante en Master 2 Data Science & Intelligence Artificielle, passionnée par l’analyse, 
+la transformation et la valorisation des données. 
+Compétente en Python, SQL, NoSQL et outils de visualisation, avec une forte capacité 
+à comprendre les enjeux métier et à produire des analyses pertinentes. 
+Rigoureuse, curieuse et motivée à évoluer dans des environnements innovants."""
 EMAIL = "adamarahma99@gmail.com"
 
 SOCIAL_MEDIA = {
@@ -60,24 +62,28 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
 # ----- EXPERIENCE & QUALIFICATIONS -----
-st.write('\n')
+st.write('\n') 
 st.subheader("Expérience & Qualifications")
 st.write("""
-- Expérience en analyse et visualisation de données (Power BI, pandas)
-- Solides compétences en Python, SQL et développement backend (Laravel)
-- Bonne compréhension des modèles statistiques et de Machine Learning
-- Capacité d’adaptation, apprentissage rapide et rigueur professionnelle
+- Expérience en analyse, transformation et visualisation de données (Power BI, pandas)
+- Compétences solides en Python, SQL, NoSQL et développement backend (Laravel)
+- Pratique de MongoDB, MySQL et PostgreSQL dans des projets réels
+- Bonne compréhension des modèles de Machine Learning et des workflows Data Science
+- Capacité à créer des tableaux de bord interactifs et automatisés
+- Habituée aux environnements dynamiques, apprentissage rapide et rigueur professionnelle
 """)
 
 # ----- SKILLS -----
 st.write('\n')
 st.subheader("Compétences Techniques")
 st.write("""
-- Langages : Python, SQL, PHP, JavaScript, R
-- Data Viz : Power BI, Streamlit, Excel
-- Machine Learning : Scikit-learn, Pandas, K-Means, Régression
-- Bases de données : MySQL, PostgreSQL
-- Frameworks : Laravel, Flask, Django, React
+- 🔹 **Langages :** Python, SQL, NoSQL, PHP, JavaScript, R
+- 🔹 **Data Viz :** Power BI, Streamlit, Tableau, Excel
+- 🔹 **Machine Learning :** Scikit-learn, Pandas, K-Means, Régressions, Classification
+- 🔹 **Bases de données :** MongoDB, MySQL, PostgreSQL
+- 🔹 **ETL & Traitement de données :** pandas, pipelines Python, nettoyage & transformation
+- 🔹 **Frameworks :** Laravel, Flask, Django, React
+- 🔹 **Outils :** Git, Jupyter, VS Code, MongoDB Atlas
 """)
 
 # ----- PROJECTS -----
