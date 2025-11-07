@@ -26,6 +26,7 @@ SOCIAL_MEDIA = {
 
 PROJECTS = {
     "📊 Tableau de bord Power BI - Suivi des ventes et performances clients": "https://app.powerbi.com/groups/me/reports/23b657bf-c95f-476e-a7e2-639c3dd3da1f/90dbb611c566aef889c0?experience=power-bi",
+    "📊 Tableau de bord Power BI - Suivi des ventes de la Bijouterie La Solution": "https://app.powerbi.com/groups/me/reports/b428ec81-0444-4d5c-ae54-072a0e0a8738/e1f5f8d0db6ebed28dd6?experience=power-bi",
     "💻 Application de gestion de stock - Laravel & MySQL": "https://www.stock.bijouterieislam.com/",
     # "🧠 Modèles de classification - Python (scikit-learn)": ""
 }
